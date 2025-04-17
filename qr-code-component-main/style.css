@@ -36,6 +36,8 @@ body {
     font-family: "Outfit", sans-serif;
     font-size: 1em;
     background-color: hsl(212, 45%, 89%);
+    margin: 0;
+    padding: 0
 }
 
 
