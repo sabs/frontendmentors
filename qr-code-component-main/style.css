@@ -27,7 +27,7 @@ h1 {
 }
 
 body {
-    height: 100%;
+    height: 100dvh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,19 +45,15 @@ body {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    /* height: 500px; */
     width: 300px;
-    background-color: #fff;
-    /* border: solid 1px black; */
-    border-radius: 10px;
+    border-radius: 1em;
     padding-top: 12.5px;
+    background-color: #fff;
     box-shadow: var(--shadow-elevation-high);
 }
 
 .card img {
     width: 275px;
-    height: auto;
-    aspect-ratio: 1 / 1;
     border-radius: 1em;
 }
 
