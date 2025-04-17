@@ -1,0 +1,83 @@
+:root {
+    --shadow-color: 213deg 36% 65%;
+    --shadow-elevation-low:
+      0px 0.5px 0.7px hsl(var(--shadow-color) / 0.04),
+      0px 0.9px 1.3px -0.2px hsl(var(--shadow-color) / 0.17),
+      0px 1.9px 2.7px -0.4px hsl(var(--shadow-color) / 0.3);
+    --shadow-elevation-medium:
+      0px 0.5px 0.7px hsl(var(--shadow-color) / 0.04),
+      0px 2.2px 3.2px -0.1px hsl(var(--shadow-color) / 0.15),
+      0px 4.5px 6.4px -0.3px hsl(var(--shadow-color) / 0.25),
+      0px 9.3px 13.3px -0.4px hsl(var(--shadow-color) / 0.35);
+    --shadow-elevation-high:
+      0px 0.5px 0.7px hsl(var(--shadow-color) / 0.04),
+      0px 3.8px 5.4px -0.1px hsl(var(--shadow-color) / 0.09),
+      0px 6.7px 9.6px -0.1px hsl(var(--shadow-color) / 0.14),
+      0px 9.8px 14px -0.2px hsl(var(--shadow-color) / 0.18),
+      0px 13.9px 19.9px -0.3px hsl(var(--shadow-color) / 0.23),
+      0px 19.6px 28.1px -0.3px hsl(var(--shadow-color) / 0.28),
+      0px 27.5px 39.4px -0.4px hsl(var(--shadow-color) / 0.33),
+      0.1px 38.4px 55px -0.4px hsl(var(--shadow-color) / 0.37);
+  }
+
+  
+p,
+h1 {
+    margin: 0
+}
+
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    font-size: 1em;
+    background-color: hsl(212, 45%, 89%);
+}
+
+
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    /* height: 500px; */
+    width: 300px;
+    background-color: #fff;
+    /* border: solid 1px black; */
+    border-radius: 10px;
+    padding-top: 12.5px;
+    box-shadow: var(--shadow-elevation-high);
+}
+
+.card img {
+    width: 275px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    border-radius: 1em;
+}
+
+.card p {
+    color: grey;
+    padding: 0em 1.5em 1em 1.5em;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+.card h1 {
+    /* text-align: center; */
+    font-weight: 700;
+    font-size: larger;
+    padding: 0.5em 1.5em;
+
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+}
