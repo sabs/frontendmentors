@@ -1,15 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frontend Mentors Challenges archive</title>
     <link rel="stylesheet" href="vanilla.css">
+    <style type="text/css">
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100dvh;
+            width: 100dvw;
+        }
+        #index {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 20rem;
+            border-radius: 20px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+            text-align: center;
+            padding: 2rem;
+            background-color: rgb(201, 245, 255);
+        }
+        #index h1 {
+            color: rgb(57, 83, 216)
+        }
+        .items ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Frontend Mentors - Challenge Archive</h1>
-    <ul>
-        <li><a href="/qr-code-component-main/index.html">QR Code Component</a></li>
-    </ul>
+    <main id="index">
+        <h1>Frontend Mentors Challenge Archive</h1>
+        <div class="items">
+            <ul>
+                <li><a href="/qr-code-component-main/index.html">QR Code Component</a></li>
+            </ul>
+        </div>
+    </main>
 </body>
+
 </html>
